@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <link href="https://vjs.zencdn.net/7.7.6/video-js.css" rel="stylesheet" />
+
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+<title>GOOD PPL MOVIE NIGHT</title>
+</head>
+
+<body style="background-color:#000000;">
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<video id="video" controls width="1280" height="720"></video>
+<script>
+  if(Hls.isSupported()) {
+    var video = document.getElementById('video');
+    var hls = new Hls();
+    hls.loadSource('http://204.87.227.60:8080/hls/test.m3u8');
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+      video.play();
+  });
+ }
+ // hls.js is not supported on platforms that do not have Media Source Extensions (MSE) enabled.
+ // When the browser has built-in HLS support (check using `canPlayType`), we can provide an HLS manifest (i.e. .m3u8 URL) directly to the video element throught the `src` property.
+ // This is using the built-in support of the plain video element, without using hls.js.
+  else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = 'http://204.87.227.60:8080/hls/test.m3u8';
+    video.addEventListener('canplay',function() {
+      video.play();
+    });
+  }
+</script>
+
+<br>
+
+<p style="color:white;font-size:30px">DRAG the progress bar to the very right in order to be caught up. It might buffer for a second.</p>
+
+</body>
+
+</html>

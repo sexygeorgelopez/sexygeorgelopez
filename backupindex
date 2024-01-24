@@ -1,0 +1,123 @@
+<html>
+<head></head>
+<body><p>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;<br />
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;</p>
+
+<p>&nbsp; &nbsp;&lt;head&gt;<br />
+&nbsp; &nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp; &nbsp;&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;/lopezi.ico&quot;&gt;<br />
+&nbsp; &nbsp;<br />
+&nbsp; &nbsp; &lt;title&gt;&lt;/title&gt;<br />
+&nbsp; &nbsp;<br />
+&nbsp; &nbsp; &lt;style type =&quot;text/css&quot; &gt;<br />
+&nbsp; &nbsp;.footer{&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;position: fixed; &nbsp; &nbsp;&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;text-align: left; &nbsp; &nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;bottom: 0px;&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;width: 100%;<br />
+&nbsp; &nbsp;}&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;.footeredit{&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;position: fixed; &nbsp; &nbsp;&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;text-align: center; &nbsp; &nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;bottom: 0px;&nbsp;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;width: 10;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;right: 80px;<br />
+&nbsp; &nbsp;}&nbsp;<br />
+&nbsp; &nbsp;{<br />
+&nbsp; &nbsp; padding: 0;<br />
+&nbsp; &nbsp; margin: 0;<br />
+&nbsp; }<br />
+&nbsp; .fit { /* set relative picture size */<br />
+&nbsp; &nbsp; max-width: 100%;<br />
+&nbsp; &nbsp; max-height: 100%;<br />
+&nbsp; }</p>
+
+<p>&nbsp; &nbsp; body {<br />
+&nbsp; &nbsp; &nbsp; background-image:url(&#39;lopezfull.png&#39;);<br />
+&nbsp; &nbsp; &nbsp; width: 100%;<br />
+&nbsp; &nbsp; &nbsp; height: 100%;<br />
+&nbsp; &nbsp; }<br />
+&nbsp;&nbsp; &nbsp;&lt;/style&gt;<br />
+&nbsp; &nbsp;</p>
+
+<p>&nbsp; &nbsp;&lt;/head&gt;</p>
+
+<p>&nbsp; &nbsp;&lt;body&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp;<br />
+&nbsp; &nbsp;&lt;div style=&#39;text-align:center&#39;&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/rats7eli&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/askey&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/satan&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp; &lt;a href=&quot;http://sexygeorgelopez.com/nguyen&quot;&gt;<br />
+&nbsp; &nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;&lt;/a&gt;</p>
+
+<p>&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/hamyojo&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;</p>
+
+<p>&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/alanzon&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/teamjbuzz&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/nizar&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/bounceyboy&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;/div&gt;<br />
+&nbsp; &nbsp;<br />
+&nbsp; &nbsp; &lt;script&gt;<br />
+&nbsp; function play(){<br />
+&nbsp; &nbsp; &nbsp; &nbsp;var audio = document.getElementById(&quot;audio&quot;);<br />
+&nbsp; &nbsp; &nbsp; &nbsp;audio.play();<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}<br />
+&nbsp; &nbsp;&lt;/script&gt;</p>
+
+<p>&lt;center&gt;&lt;img src=&quot;moresexy.png&quot; align=&quot;middle&quot; value=&quot;PLAY&quot; &nbsp;onclick=&quot;play()&quot;&gt;<br />
+&lt;audio id=&quot;audio&quot; src=&quot;igotthis.mp3&quot; &gt;&lt;/audio&gt;&lt;/center&gt;<br />
+&nbsp; &nbsp;<br />
+&nbsp; &lt;div style=&#39;text-align:center&#39;&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/flarebear&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &nbsp;&lt;a href=&quot;http://sexygeorgelopez.com/kaffelon&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&lt;a href=&quot;http://sexygeorgelopez.com/atticus&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; alt=&quot;HTML tutorial&quot; style=&quot;float: left;&quot;&gt;<br />
+&lt;/a&gt;<br />
+&lt;a href=&quot;http://sexygeorgelopez.com/eggboy&quot;&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; style=&quot;float: left;&quot; /&gt;<br />
+&lt;/a&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; style=&quot;float: left;&quot; /&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; style=&quot;float: left;&quot; /&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; style=&quot;float: left;&quot; /&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; style=&quot;float: left;&quot; /&gt;<br />
+&nbsp; &lt;img src=&quot;sexxy.gif&quot; style=&quot;float: left;&quot; /&gt;<br />
+&nbsp; &nbsp;&lt;/div&gt;</p>
+
+<p>&lt;br&gt;<br />
+&nbsp;&lt;br&gt;<br />
+&nbsp; &nbsp;&lt;br&gt;<br />
+&lt;div style=&#39;text-align:center&#39;&gt;<br />
+&lt;audio controls autoplay&gt;<br />
+&nbsp; &lt;source src=&quot;Rider.mp3&quot; type=&quot;audio/mpeg&quot;&gt;<br />
+&nbsp; &lt;p&gt;If you can read this, your browser does not support the audio element.&lt;/p&gt;<br />
+&lt;/audio&gt;<br />
+&lt;/div&gt;<br />
+&nbsp; &nbsp;&lt;br&gt;<br />
+&nbsp; &nbsp;&lt;div style=&quot;color:white; font-family:Arial Black; text-align:center&quot;&gt;&lt;strong&gt;please do not sue us george lopez we are just huge fans.&lt;/strong&gt;&lt;/div&gt;<br />
+&nbsp; &nbsp;&lt;/body&gt;<br />
+&lt;/html&gt;<br />
+&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html5 PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<style>
+
+ .dragme{
+			position:relative;
+			cursor: move;
+		}
+	#draggable {
+			background-color: #ccc;
+			border: 1px solid #000;
+		}
+
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.table {
+  border-spacing: 250px 0;
+}
+
+</style>
+</head>
+<body>
+ 
+<body background="http://thewallpaper.co/wp-content/uploads/2016/01/colorful-backgrounds-amazing-pictures-lovely-wallpapers-cool-pattern-windows-apple-free-images-2262x1504.jpg">
+
+<script>
+function startDrag(e) {
+				// determine event object
+				if (!e) {
+					var e = window.event;
+				}
+                if(e.preventDefault) e.preventDefault();
+
+				// IE uses srcElement, others use target
+				targ = e.target ? e.target : e.srcElement;
+
+				if (targ.className != 'dragme') {return};
+				// calculate event X, Y coordinates
+					offsetX = e.clientX;
+					offsetY = e.clientY;
+
+				// assign default values for top and left properties
+				if(!targ.style.left) { targ.style.left='0px'};
+				if (!targ.style.top) { targ.style.top='0px'};
+
+				// calculate integer values for top and left 
+				// properties
+				coordX = parseInt(targ.style.left);
+				coordY = parseInt(targ.style.top);
+				drag = true;
+
+				// move div element
+					document.onmousemove=dragDiv;
+                return false;
+				
+			}
+			function dragDiv(e) {
+				if (!drag) {return};
+				if (!e) { var e= window.event};
+				// var targ=e.target?e.target:e.srcElement;
+				// move div element
+				targ.style.left=coordX+e.clientX-offsetX+'px';
+				targ.style.top=coordY+e.clientY-offsetY+'px';
+				return false;
+			}
+			function stopDrag() {
+				drag=false;
+			}
+			window.onload = function() {
+				document.onmousedown = startDrag;
+				document.onmouseup = stopDrag;
+			}
+</script>
+
+<center><img src="father/logo" align="middle"></center>
+<br>
+
+<table class="table">
+  <tr>
+    <th><img src="father/A.gif"></th>
+    <th><img src="father/B.gif"></th>
+    <th><img src="father/C.gif"></th>
+    <th><img src="father/D.gif"></th>
+  	<th><img src="father/E.gif"></th>
+  </tr>
+</table>
+
+<img src="father/lukedad" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+
+<img src="father/elidad" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+
+<img src="father/atticusdad" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+
+<img src="father/mateodad" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+
+<img src="father/andrewdad" alt="drag-and-drop image script" 
+ title="drag-and-drop image script" class="dragme">
+</body>
+
+<div style="text-align:center" class="bottom">
+   <center><audio controls autoplay>
+  <source src="father/music.mp3" type="audio/mpeg">
+  <p>If you can read this, your browser does not support the audio element.</p>
+</audio></center>
+</div>
+</html>

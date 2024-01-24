@@ -1,0 +1,163 @@
+<!DOCTYPE html5 PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+    
+ 	<link rel="shortcut icon" type="image/x-icon" href="/lopezi.ico">
+   
+    <title>OPPA GANGAM STYEL</title>
+   
+    <style type ="text/css" >
+   .footer{ 
+       position: fixed;     
+       text-align: left;    
+       bottom: 0px; 
+       width: 100%;
+   } 
+       .footeredit{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 10;
+       right: 80px;
+   } 
+   {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+    body {
+      background-image:url('luke/unlukiepieaable.jpg');
+      width: 100%;
+      height: 100%;
+    }
+	</style>
+   
+
+   </head>
+
+   <body>
+   
+<div align="center" id="img" style="position:absolute;">
+<img src="luke/categg.gif" onMouseDown="pauseResume();">
+</div>
+   
+<SCRIPT LANGUAGE="JavaScript">
+var step = 5;
+var delay = 30;
+var height = 0;
+var Hoffset = 0;
+var Woffset = 0;
+var yon = 0;
+var xon = 0;
+var pause = true;
+var interval;
+var name = navigator.appName;
+if(name == "Microsoft Internet Explorer") name = true;
+else name = false;
+var xPos = 20;
+if(name) var yPos = document.body.clientHeight;
+else var yPos = window.innerHeight;
+function changePos() {
+if(name) {
+width = document.body.clientWidth;
+height = document.body.clientHeight;
+Hoffset = img.offsetHeight;
+Woffset = img.offsetWidth;
+img.style.left = xPos + document.body.scrollLeft;
+img.style.top = yPos + document.body.scrollTop;
+}
+else {
+height = window.innerHeight;
+width = window.innerWidth;
+Hoffset =33;
+Woffset =30;
+document.getElementById('img').style.top = yPos + window.pageYOffset;
+document.getElementById('img').style.left = xPos + window.pageXOffset;
+}
+if (yon) {
+yPos = yPos + step;
+}
+else {
+yPos = yPos - step;
+}
+if (yPos < 0) {
+yon = 1;
+yPos = 0;
+}
+if (yPos >= (height - Hoffset)) {
+yon = 0;
+yPos = (height - Hoffset);
+}
+if (xon) {
+xPos = xPos + step;
+}
+else {
+xPos = xPos - step;
+}
+if (xPos < 0) {
+xon = 1;
+xPos = 0;
+}
+if (xPos >= (width - Woffset)) {
+xon = 0;
+xPos = (width - Woffset);
+   }
+}
+function start() {
+document.getElementById('img').style.visibility = "visible";
+interval = setInterval('changePos()',delay);
+}
+function pauseResume() {
+if(pause) {
+clearInterval(interval);
+pause = false;
+}
+else {
+interval = setInterval('changePos()',delay);
+pause = true;
+   }
+}
+start();
+//  End -->
+</script>
+   
+
+   
+  
+       
+<marquee behavior="alternate">  
+     <img src="luke/eggwalking.gif" alt="ham">
+</marquee>
+
+<marquee behavior="scroll">  
+     <img src="luke/easteregg.gif" alt="ham">
+</marquee>
+
+   
+
+   <div style="color:white; font-family:Arial Black; text-align:center">
+   <img src="luke/mymain.jpg" alt="yoshi" align="middle"> <br><br>
+   <img src="luke/epictext.gif" alt="yoshi" align="middle"> <br><br> </div>
+
+<div style="text-align:center">
+   <audio controls autoplay>
+  <source src="luke/partyrock.mp3" type="audio/mpeg">
+  <p>If you can read this, your browser does not support the audio element.</p>
+</audio>
+
+<marquee behavior="scroll">  
+     <img src="luke/eggkill.gif" alt="ham">
+</marquee>
+
+<marquee behavior="slide">  
+     <img src="luke/epicegg.gif" alt="ham">
+</marquee>
+
+</div>
+   </body>
+</html>
